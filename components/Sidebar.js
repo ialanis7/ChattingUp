@@ -21,7 +21,7 @@ function Sidebar() {
         const input = prompt(
             "Please enter an email address for the user you wish to chat with"
         );
-
+ 
         if (!input) return;
 
         if (EmailValidator.validate(input) && !chatAlreadyExists(input) && input !== user.delete.email) {
@@ -61,7 +61,7 @@ function Sidebar() {
 
             {/* Lists of chats */}
             {chatsSnapshot?.docs.map((chat) => (
-              <Chat key={chat.id} id={chat.id} user={chat.data().users} />
+              <Chat key={chat.id} id={chat.id} users={chat.data().users} />
             ))}
         </Container>
     )
