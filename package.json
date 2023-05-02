@@ -1,5 +1,4 @@
 {
-  "homepage": "http://ialanis7.github.io/ChattingUp",
   "name": "whatsapp-2",
   "version": "0.1.0",
   "private": true,
@@ -7,8 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "lint": "next lint"
   },
   "dependencies": {
@@ -28,7 +25,6 @@
   },
   "devDependencies": {
     "eslint": "7.29.0",
-    "eslint-config-next": "11.0.0",
-    "gh-pages": "^5.0.0"
+    "eslint-config-next": "11.0.0"
   }
 }

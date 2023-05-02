@@ -8,6 +8,7 @@ function Loading() {
                 <Image src="https://freepngimg.com/thumb/whatsapp/4-2-whatsapp-transparent.png"
                 alt=""
                 style={{ marginBottom: 10}}
+                width="100%"
                 height={200}
                 />
                 <Circle color="#3CBC28" size={60}/>
