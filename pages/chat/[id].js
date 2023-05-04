@@ -1,4 +1,4 @@
-import Head from "next/dist/next-server/lib/head";
+import Head from "next/dist/next-server/lib/head.js";
 import styled from "styled-components";
 import Sidebar from "../../components/Sidebar";
 import ChatScreen from "../../components/ChatScreen";
